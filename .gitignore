@@ -10,3 +10,7 @@ tmp/
 
 mlflow.db
 mlruns/
+
+data/dev_corpus.jsonl
+data/arxiv_real_1k.jsonl
+data/arxiv_real_10k.jsonl

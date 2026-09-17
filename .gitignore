@@ -7,3 +7,6 @@ __pycache__/
 data/
 tmp/
 *.log
+
+mlflow.db
+mlruns/

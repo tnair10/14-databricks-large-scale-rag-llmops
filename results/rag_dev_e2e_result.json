@@ -1,0 +1,53 @@
+{
+  "question": "What aspects of distributed systems are evaluated in these scientific studies?",
+  "answer": "We need answer: \"What aspects of distributed systems are evaluated in these scientific studies?\" We have context: multiple chunks repeatedly mention \"controlled experiments, measurable baselines, reproducible methods, quality evaluation, latency analysis, and computational trade-offs.\" So answer: the studies evaluate. Provide citations for each chunk, but we can cite a single chunk that covers all: many chunks show same phrase [1], [2], etc. Use one. Provide concise answer.\nThese studies evaluate distributed systems through:\n\n- **Controlled experiments**  \n- **Measurable baselines**  \n- **Reproducible methods**  \n- **Quality evaluation**  \n- **Latency analysis**  \n- **Computational trade‑offs** [1], [2], [3], [4], [5]",
+  "retrieved": [
+    {
+      "rank": 1,
+      "chunk_id": "DOC-000004593-CHUNK-0001",
+      "document_id": "DOC-000004593",
+      "category": "distributed_systems",
+      "score": 0.5
+    },
+    {
+      "rank": 2,
+      "chunk_id": "DOC-000001409-CHUNK-0001",
+      "document_id": "DOC-000001409",
+      "category": "distributed_systems",
+      "score": 0.5
+    },
+    {
+      "rank": 3,
+      "chunk_id": "DOC-000007201-CHUNK-0000",
+      "document_id": "DOC-000007201",
+      "category": "distributed_systems",
+      "score": 0.5
+    },
+    {
+      "rank": 4,
+      "chunk_id": "DOC-000006393-CHUNK-0000",
+      "document_id": "DOC-000006393",
+      "category": "distributed_systems",
+      "score": 0.5
+    },
+    {
+      "rank": 5,
+      "chunk_id": "DOC-000009761-CHUNK-0001",
+      "document_id": "DOC-000009761",
+      "category": "distributed_systems",
+      "score": 0.5
+    }
+  ],
+  "model": "p14_rag_llmops.default.p14-rag-llm-dev",
+  "retrieval_index": "p14_rag_llmops.default.scientific_chunks_dev_ai_index",
+  "model_meta": {
+    "latency_ms": 1944.893250009045,
+    "usage": {
+      "input_tokens": 1661,
+      "output_tokens": 173,
+      "total_tokens": 1834
+    },
+    "raw_id": "resp_7d4e09396b8b47d3b2c8cc97d7935efd"
+  },
+  "end_to_end_ms": 3623.8718749955297
+}

@@ -1,0 +1,58 @@
+{
+  "question": "What is studied about massive photon-pair production at hadron colliders?",
+  "answer": "The production of massive photon pairs at hadron colliders is studied through a fully differential perturbative QCD calculation that includes all next‑to‑leading‑order quark–antiquark, quark–gluon and gluon–gluon subprocesses, as well as next‑to‑next‑to‑leading‑logarithmic resummation of initial‑state gluon radiation. The authors identify the phase‑space region where the calculation is most reliable, compare its predictions with Tevatron data, and extend the predictions to the LHC, contrasting diphoton distributions from QCD with those from Higgs boson decays [2].",
+  "retrieved": [
+    {
+      "rank": 1,
+      "chunk_id": "0705.3804-CHUNK-0000",
+      "document_id": "0705.3804",
+      "source": "arxiv-abstracts",
+      "chunk_position": 0.0,
+      "score": 0.9919354838709677
+    },
+    {
+      "rank": 2,
+      "chunk_id": "0704.0001-CHUNK-0000",
+      "document_id": "0704.0001",
+      "source": "arxiv-abstracts",
+      "chunk_position": 0.0,
+      "score": 0.9841269841269842
+    },
+    {
+      "rank": 3,
+      "chunk_id": "0706.1042-CHUNK-0000",
+      "document_id": "0706.1042",
+      "source": "arxiv-abstracts",
+      "chunk_position": 0.0,
+      "score": 0.9198412698412699
+    },
+    {
+      "rank": 4,
+      "chunk_id": "0706.0441-CHUNK-0000",
+      "document_id": "0706.0441",
+      "source": "arxiv-abstracts",
+      "chunk_position": 0.0,
+      "score": 0.9001736111111112
+    },
+    {
+      "rank": 5,
+      "chunk_id": "0705.0526-CHUNK-0000",
+      "document_id": "0705.0526",
+      "source": "arxiv-abstracts",
+      "chunk_position": 0.0,
+      "score": 0.8778782894736843
+    }
+  ],
+  "model": "p14_rag_llmops.default.p14-rag-llm-dev",
+  "retrieval_index": "p14_rag_llmops.default.scientific_chunks_prod_ai_index",
+  "model_meta": {
+    "latency_ms": 1871.66295805946,
+    "usage": {
+      "input_tokens": 1219,
+      "output_tokens": 305,
+      "total_tokens": 1524
+    },
+    "raw_id": "resp_54b13d16cd3a4401ac6b20752629ca67"
+  },
+  "end_to_end_ms": 2547.334957867861
+}

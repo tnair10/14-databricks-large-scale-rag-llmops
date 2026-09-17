@@ -1,0 +1,28 @@
+{
+  "source": "/Users/tnair/Downloads/workspaces/expert-data-ai-portfolio/14-databricks-large-scale-rag-llmops/results/ai_search_500_real_benchmark.json",
+  "note": "Corrected real-corpus benchmark. NDCG@10 uses the first rank of the one known relevant document per query, preventing duplicate relevant chunks from producing gain > 1.",
+  "results": {
+    "ANN": {
+      "queries": 500,
+      "hit_at_5": 0.984,
+      "hit_at_10": 0.99,
+      "mrr": 0.9567579365079365,
+      "ndcg_at_10": 0.9651214122938611,
+      "latency_p50_ms": 469.8130210163072,
+      "latency_p95_ms": 630.3702646284363,
+      "latency_mean_ms": 490.39965283544734,
+      "failures": 0
+    },
+    "HYBRID": {
+      "queries": 500,
+      "hit_at_5": 0.996,
+      "hit_at_10": 0.998,
+      "mrr": 0.9820666666666666,
+      "ndcg_at_10": 0.9860418427709793,
+      "latency_p50_ms": 479.31135445833206,
+      "latency_p95_ms": 615.6398605788127,
+      "latency_mean_ms": 495.9897421533242,
+      "failures": 0
+    }
+  }
+}

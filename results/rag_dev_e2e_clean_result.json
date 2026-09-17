@@ -1,0 +1,53 @@
+{
+  "question": "What aspects of distributed systems are evaluated in these scientific studies?",
+  "answer": "We need to answer: What aspects of distributed systems are evaluated in these scientific studies? The context describes that these studies investigate distributed systems using controlled experiments, measurable baselines, reproducible methods, quality evaluation, latency analysis, and computational trade-offs. So aspects: controlled experiments, measurable baselines, reproducible methods, quality evaluation, latency analysis, computational trade-offs. Need to cite relevant chunks. All chunks reflect same phrasing. Use [1] maybe. Also [2], [3], [4], [5] are duplicates. So we can cite [1] for the description. Then answer.\nThe studies evaluate distributed systems on several fronts: controlled experiments, measurable baselines, reproducible methods, quality evaluation, latency analysis, and computational trade‑offs [1].",
+  "retrieved": [
+    {
+      "rank": 1,
+      "chunk_id": "DOC-000004593-CHUNK-0001",
+      "document_id": "DOC-000004593",
+      "category": "distributed_systems",
+      "score": 0.5
+    },
+    {
+      "rank": 2,
+      "chunk_id": "DOC-000001409-CHUNK-0001",
+      "document_id": "DOC-000001409",
+      "category": "distributed_systems",
+      "score": 0.5
+    },
+    {
+      "rank": 3,
+      "chunk_id": "DOC-000007201-CHUNK-0000",
+      "document_id": "DOC-000007201",
+      "category": "distributed_systems",
+      "score": 0.5
+    },
+    {
+      "rank": 4,
+      "chunk_id": "DOC-000006393-CHUNK-0000",
+      "document_id": "DOC-000006393",
+      "category": "distributed_systems",
+      "score": 0.5
+    },
+    {
+      "rank": 5,
+      "chunk_id": "DOC-000009761-CHUNK-0001",
+      "document_id": "DOC-000009761",
+      "category": "distributed_systems",
+      "score": 0.5
+    }
+  ],
+  "model": "p14_rag_llmops.default.p14-rag-llm-dev",
+  "retrieval_index": "p14_rag_llmops.default.scientific_chunks_dev_ai_index",
+  "model_meta": {
+    "latency_ms": 1723.5253748949617,
+    "usage": {
+      "input_tokens": 1690,
+      "output_tokens": 167,
+      "total_tokens": 1857
+    },
+    "raw_id": "resp_5905ee802b3f4204ae03cacdaf321b4a"
+  },
+  "end_to_end_ms": 2337.4518749769777
+}

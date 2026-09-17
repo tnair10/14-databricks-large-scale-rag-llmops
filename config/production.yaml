@@ -1,0 +1,23 @@
+project:
+  catalog: p14_rag_llmops
+  schema: default
+corpus:
+  provider: huggingface
+  dataset: common-pile/arxiv_abstracts
+  development_rows: 10000
+  validation_rows: 100000
+  scale_rows: 500000
+  final_rows: 1000000
+chunking:
+  strategy: token_aware
+  target_tokens: 384
+  overlap_tokens: 48
+retrieval:
+  top_k_values: [5, 10, 20]
+  variants: [lexical, vector, hybrid, hybrid_reranked]
+evaluation:
+  retrieval_queries_prod_target: 20000
+  full_rag_eval_target: 1000
+  deep_judge_eval_target: 250
+budget:
+  total_incremental_usd_ceiling: 10.0

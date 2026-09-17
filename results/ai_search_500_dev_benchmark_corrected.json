@@ -1,0 +1,32 @@
+{
+  "source": "/Users/tnair/Downloads/workspaces/expert-data-ai-portfolio/14-databricks-large-scale-rag-llmops/results/ai_search_500_dev_benchmark.json",
+  "note": "Corrected development-plumbing metrics. Previous recall@K was actually hit@K. NDCG@10 is normalized by ideal DCG with ten relevant binary results and is bounded [0,1].",
+  "results": {
+    "ANN": {
+      "queries": 500,
+      "hit_at_5": 1.0,
+      "hit_at_10": 1.0,
+      "precision_at_5": 1.0,
+      "precision_at_10": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_10": 1.0,
+      "latency_p50_ms": 464.2382505116984,
+      "latency_p95_ms": 768.4107850887812,
+      "latency_mean_ms": 506.3367772321217,
+      "failures": 0
+    },
+    "HYBRID": {
+      "queries": 500,
+      "hit_at_5": 1.0,
+      "hit_at_10": 1.0,
+      "precision_at_5": 1.0,
+      "precision_at_10": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_10": 1.0,
+      "latency_p50_ms": 488.7471665861085,
+      "latency_p95_ms": 712.7327877096832,
+      "latency_mean_ms": 522.3515050737187,
+      "failures": 0
+    }
+  }
+}

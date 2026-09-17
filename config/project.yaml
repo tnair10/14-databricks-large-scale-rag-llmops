@@ -1,0 +1,27 @@
+project:
+  name: databricks-large-scale-scientific-rag-llmops
+  development_document_target: 10000
+  scale_targets: [10000, 100000, 500000, 1000000]
+
+retrieval:
+  variants: [lexical, vector, hybrid, hybrid_reranked]
+
+evaluation:
+  metrics:
+    - recall_at_5
+    - recall_at_10
+    - mrr
+    - ndcg_at_10
+    - context_precision
+    - context_recall
+    - answer_correctness
+    - groundedness
+    - retrieval_p50_ms
+    - retrieval_p95_ms
+    - generation_p50_ms
+    - generation_p95_ms
+    - tokens_per_query
+    - cost_per_query
+
+budget:
+  max_incremental_usd: 10
